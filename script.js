@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       price: 599,
       originalPrice: 799,
-      image: "/src/1.jpeg",
+      image: "/1.jpeg",
       description:
         "Luxurious,handcrafted candle infused with velvety rose aroma . Elegant packaging, perfect for creating a serene ambiance or as a shophisticated gift. Experience the art of luxury",
       rating: 5,
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       price: 899,
       originalPrice: 1099,
-      image: "/src/2.jpeg",
+      image: "/2.jpeg",
       description:
         "Illuminate your space with Illiume, where artisanal craftsmanship meets luxurious ambiance. Our handmade candles are carefully crafted with love and attention to detail, using only the finest ingredients and essential oils",
       rating: 4,
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Lumière de Pâquerette",
       price: 499,
       originalPrice: 699,
-      image: "/src/3.jpeg",
+      image: "/3.jpeg",
       description:
         " A delicate dance of soft lavender swirls, crowned with a pristine daisy bloom. Infused with a gentle fragrance, this candle casts an enchanting glow, bringing the serene beauty of a sun-drenched meadow into your sanctuary.",
       rating: 4,
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "lavender latte ",
       price: 1299,
       originalPrice: 1599,
-      image: "/src/4.jpeg",
+      image: "/4.jpeg",
       description:
         "Indulge in the calming embrace of our handcrafted Lavender Latte candle with lavender flavour. Its soothing aroma and inviting glow create an atmosphere of pure relaxation, perfect for unwinding",
       rating: 5,
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: " iced lavender latte",
       price: 749,
       originalPrice: 899,
-      image: "/src/5.jpeg",
+      image: "/5.jpeg",
       description:
         "Hand-poured with care, this 'Iced Lavender Latte' scented candle offers a beautiful visual appeal and a wonderfully calming aroma, perfect for cozy moments",
       rating: 5,
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Hearthside Glow",
       price: 649,
       originalPrice: 849,
-      image: "/src/6.jpeg",
+      image: "/6.jpeg",
       description:
         "Kindle comfort with our handcrafted Hearthside Glow candle with Rose falvour. Infused with a warm, inviting fragrance, it casts a soft light that evokes cozy evenings by the fire, making any space feel like home.",
       rating: 4,
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "The Artisan's Light",
       price: 999,
       originalPrice: 1299,
-      image: "/src/7.jpeg",
+      image: "/7.jpeg",
       description:
         "Each Artisan's Light candle with Flavoured-mogra is a testament to meticulous craftsmanship. Hand-poured with premium wax and a carefully selected fragrance, it offers a luxurious burn and a captivating aroma, enhancing any setting with its gentle glow",
       rating: 5,
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Iced Matcha Dream",
       price: 1499,
       originalPrice: 1799,
-      image: "/src/8.jpeg",
+      image: "/8.jpeg",
       description:
         "Indulge in an Iced Matcha Dream without the calories! Our unique handmade candle with mogra flavour  perfectly mimics the look and refreshing aroma of your favorite beverage, bringing a cool, calming vibe and a touch of playful charm to any room.",
       rating: 5,
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Autumn Hearth Collection",
       price: 1499,
       originalPrice: 1799,
-      image: "/src/9.jpeg",
+      image: "/9.jpeg",
       description:
         "Embrace the warmth of the season with our Autumn Hearth Collection with Rose flavour. Hand-poured with comforting fragrances, these candles cast a soft, inviting glow, perfect for creating a cozy sanctuary on crisp evenings.",
       rating: 5,
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: " Daisy & Delight Candles",
       price: 1499,
       originalPrice: 1799,
-      image: "/src/10.jpeg",
+      image: "/10.jpeg",
       description:
         "Bring joy into your home with our Daisy & Delight Candles with  rose, lavender, mogra flavour. Each one is lovingly shaped like a blooming flower, offering a cheerful aesthetic and a sweet, subtle scent to brighten your day",
       rating: 5,
