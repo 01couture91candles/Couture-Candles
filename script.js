@@ -66,93 +66,119 @@ document.addEventListener("DOMContentLoaded", function () {
   const products = [
     {
       id: 1,
-      name: "Lavender Dreams Scented Candle",
+      name: "Rose noir luxe r",
+
       price: 599,
       originalPrice: 799,
-      image:
-        "https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Calming lavender essential oil blend, 40hr burn time",
+      image: "/src/1.jpeg",
+      description:
+        "Luxurious,handcrafted candle infused with velvety rose aroma . Elegant packaging, perfect for creating a serene ambiance or as a shophisticated gift. Experience the art of luxury",
       rating: 5,
       category: "scented",
       badge: "Bestseller",
     },
     {
       id: 2,
-      name: "Vanilla Bean Luxury Candle",
+      name: "ILLUME rose scented",
+
       price: 899,
       originalPrice: 1099,
-      image:
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Rich vanilla with real vanilla bean specks, 50hr burn",
+      image: "/src/2.jpeg",
+      description:
+        "Illuminate your space with Illiume, where artisanal craftsmanship meets luxurious ambiance. Our handmade candles are carefully crafted with love and attention to detail, using only the finest ingredients and essential oils",
       rating: 4,
       category: "luxury",
       badge: "Premium",
     },
     {
       id: 3,
-      name: "Citrus Sunrise Jar Candle",
+      name: "Lumière de Pâquerette",
       price: 499,
       originalPrice: 699,
-      image:
-        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      description: "Energizing citrus blend in reusable glass jar",
+      image: "/src/3.jpeg",
+      description:
+        " A delicate dance of soft lavender swirls, crowned with a pristine daisy bloom. Infused with a gentle fragrance, this candle casts an enchanting glow, bringing the serene beauty of a sun-drenched meadow into your sanctuary.",
       rating: 4,
       category: "scented",
     },
     {
       id: 4,
-      name: "Himalayan Salt Candle Holder",
+      name: "lavender latte ",
       price: 1299,
       originalPrice: 1599,
-      image:
-        "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Natural salt candle holder with tea light, set of 3",
+      image: "/src/4.jpeg",
+      description:
+        "Indulge in the calming embrace of our handcrafted Lavender Latte candle with lavender flavour. Its soothing aroma and inviting glow create an atmosphere of pure relaxation, perfect for unwinding",
       rating: 5,
       category: "decorative",
       badge: "New",
     },
     {
       id: 5,
-      name: "Sandalwood Meditation Candle",
+      name: " iced lavender latte",
       price: 749,
       originalPrice: 899,
-      image:
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Earthy sandalwood fragrance for relaxation",
+      image: "/src/5.jpeg",
+      description:
+        "Hand-poured with care, this 'Iced Lavender Latte' scented candle offers a beautiful visual appeal and a wonderfully calming aroma, perfect for cozy moments",
       rating: 5,
       category: "scented",
     },
     {
       id: 6,
-      name: "Floral Decorative Pillar Candle",
+      name: "Hearthside Glow",
       price: 649,
       originalPrice: 849,
-      image:
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Hand-carved floral design, unscented, 35hr burn",
+      image: "/src/6.jpeg",
+      description:
+        "Kindle comfort with our handcrafted Hearthside Glow candle with Rose falvour. Infused with a warm, inviting fragrance, it casts a soft light that evokes cozy evenings by the fire, making any space feel like home.",
       rating: 4,
       category: "decorative",
     },
     {
       id: 7,
-      name: "Festive Diwali Candle Set",
+      name: "The Artisan's Light",
       price: 999,
       originalPrice: 1299,
-      image:
-        "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Set of 6 decorative candles for Diwali celebrations",
+      image: "/src/7.jpeg",
+      description:
+        "Each Artisan's Light candle with Flavoured-mogra is a testament to meticulous craftsmanship. Hand-poured with premium wax and a carefully selected fragrance, it offers a luxurious burn and a captivating aroma, enhancing any setting with its gentle glow",
       rating: 5,
       category: "themed",
       badge: "Limited",
     },
     {
       id: 8,
-      name: "Rose Gold Luxury Candle",
+      name: "Iced Matcha Dream",
       price: 1499,
       originalPrice: 1799,
-      image:
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      description: "Premium rose fragrance in rose gold vessel",
+      image: "/src/8.jpeg",
+      description:
+        "Indulge in an Iced Matcha Dream without the calories! Our unique handmade candle with mogra flavour  perfectly mimics the look and refreshing aroma of your favorite beverage, bringing a cool, calming vibe and a touch of playful charm to any room.",
+      rating: 5,
+      category: "luxury",
+      badge: "Luxury",
+    },
+    {
+      id: 9,
+      name: "Autumn Hearth Collection",
+      price: 1499,
+      originalPrice: 1799,
+      image: "/src/9.jpeg",
+      description:
+        "Embrace the warmth of the season with our Autumn Hearth Collection with Rose flavour. Hand-poured with comforting fragrances, these candles cast a soft, inviting glow, perfect for creating a cozy sanctuary on crisp evenings.",
+      rating: 5,
+      category: "luxury",
+      badge: "Luxury",
+    },
+    {
+      id: 10,
+      name: " Daisy & Delight Candles",
+      price: 1499,
+      originalPrice: 1799,
+      image: "/src/10.jpeg",
+      description:
+        "Bring joy into your home with our Daisy & Delight Candles with  rose, lavender, mogra flavour. Each one is lovingly shaped like a blooming flower, offering a cheerful aesthetic and a sweet, subtle scent to brighten your day",
       rating: 5,
       category: "luxury",
       badge: "Luxury",
